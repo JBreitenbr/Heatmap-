@@ -73,7 +73,8 @@ function colored(n){
       .attr("width", x.bandwidth() )
       .attr("height", y.bandwidth() )
       .style("fill", function(d) { return colored(d.value)} )
-      .style("opacity", 0.8).on("mouseover", function(event, d) {
+      .style("opacity", 0.8).style("stroke-width", 0.5)
+      .style("stroke", "grey").on("mouseover", function(event, d) {
    
       tooltip.style("opacity", 1)
         .html(`
