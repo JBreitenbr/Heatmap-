@@ -85,8 +85,8 @@ body {
     .tooltip {
       position: absolute;
       padding: 8px;
-      background: rgba(0, 0, 0, 0.85);
-      color: white;
+      background: rgba(175, 215, 240, 0.85);
+      color: navy;
       border-radius: 4px;
       font-size: 12px;
       pointer-events: none;
