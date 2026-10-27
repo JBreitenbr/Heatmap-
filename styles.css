@@ -61,7 +61,7 @@ body {
       color: #333;
     }
     select {
-      margin: max(20px,15vh) auto;
+      margin: min(20px,15vh) auto;
       padding: 6px 12px;
       font-size: 14px;
       border-radius: 4px;
