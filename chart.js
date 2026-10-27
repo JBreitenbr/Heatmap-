@@ -58,9 +58,9 @@ function colored(n){
   return blues[n];
 }
   // Achsen zeichnen
-  xAxisG.attr("transform", `translate(0, ${height - margin.top - margin.bottom})`)
+/*  xAxisG.attr("transform", `translate(0, ${height - margin.top - margin.bottom})`)
     .transition().duration(400)
-    .call(d3.axisBottom(x).ticks(Math.max(4, width / 120)));
+    .call(d3.axisBottom(x).ticks(Math.max(4, width / 120)));*/
 
   yAxisG.transition().duration(400)
     .call(d3.axisLeft(y));
