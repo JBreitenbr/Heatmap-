@@ -63,6 +63,7 @@ body {
       color: #333;
     }
     select {
+      margin: max(20px,15vh) auto;
       padding: 6px 12px;
       font-size: 14px;
       border-radius: 4px;
@@ -73,7 +74,7 @@ body {
     #chart-container {
       width: 100%;
       max-width: 900px;
-      margin: max(20px,15vh) auto;
+      margin: 15px auto;
       background: white;
       padding: 15px;
       box-shadow: 0 4px 6px rgba(0,0,0,0.05);
