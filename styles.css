@@ -93,3 +93,12 @@ body {
       transition: opacity 0.15s ease;
       box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     }
+@media (min-width: 768px) {
+  .logo {
+    transform: scale(0.5);
+  }
+  
+  .wrapper {
+    height:110px;
+  }
+}
